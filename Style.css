@@ -1,0 +1,140 @@
+*{
+    font-family: 'Saira Extra Condensed', 'sans-serif';
+    margin: 0;
+}
+
+.column{
+    width: 100%;
+}
+
+@media(min-with:600px){
+    *{
+        flex-wrap: nowrap;
+    }
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-image: url(./images/bebe.jpg);
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+header .nav{
+    margin: auto;
+    padding: 21px;
+    display: flex;
+    
+}
+
+nav a{
+    display: inline-block;
+    padding: 12px  20px ;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+header a:hover{
+    background: #2b4c5d;
+    border: 1px solid #ffff;
+}
+
+header img{
+    width: 230px;
+    height: auto;
+    border: 1px solid #0000;
+}
+
+header h1 h3{
+    background: grey;
+    padding: 21px;
+}
+
+
+section{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    
+    text-align: center;
+}
+
+section .sobre-mi{
+    width: 100%;
+    background: #1c282e;
+    color: #ffff;
+}
+
+section .sobre-mi .article{
+    padding: auto;
+    margin: auto;
+    width: 60%;
+    
+}
+
+section .sobre-mi .article p{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+}
+
+section .sobre-mi .foto{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+section .sobre-mi .foto img{
+    width: 33.3%;
+}
+
+section .estudios{
+    background: #2b4c5d;
+    padding: 21px;
+    color: #fff;
+}
+
+section .estudios table{
+    padding: auto;
+    margin: auto;
+    width: 50%;
+    font-size: 21px;
+}
+
+
+section .estudios table th td{
+    padding: 21px;
+    margin: 12px;
+    font-size: 18px;
+}
+
+.experiencia{
+    background: #a1afba;
+}
+
+section .hobbies{
+    width: 100%;
+    background: #ccd3d9;
+    
+    
+}
+
+section .hobbies .list-hobbies p{
+    font-size: 21px;
+}
+
+section .hobbies .list-hobbies .foto{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+section .hobbies .list-hobbies img{
+    width: 33.3%;
+}
+
